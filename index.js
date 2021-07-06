@@ -12,4 +12,4 @@ const Discord = require("discord.js"); //Conexão com a livraria Discord.js
 const client = new Discord.Client(); //Criação de um novo Client
 const config = require("./config.json"); //Pegando o prefixo do bot para respostas de comandos
 
-client.login("ODYyMDY1NzczMDU1OTY3MjQz.YOS7UA.iKxdqJf7dt2beQsU9rqdV_RYqsc"); //Ligando o Bot caso ele consiga acessar o token
+client.login(process.env.TOKEN); //Ligando o Bot caso ele consiga acessar o token
